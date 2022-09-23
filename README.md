@@ -25,10 +25,11 @@ This is a Front End project for a Social Media. The user should create an accoun
 
 
 ## Running
+https://github.com/Guilherme-Turri/addawdawd.git
 
 ### `Clone this repository`
  ~~~
- git clone git@github.com:tgmarinho/README-ecoleta.git
+ git clone https://github.com/Guilherme-Turri/Codeleap-FrontEnd.git
 ~~~
 ### `Install the dependencies`
  ~~~
