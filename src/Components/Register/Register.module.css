@@ -5,6 +5,14 @@
   margin: 0 auto;
  }
 
+ @media (max-width: 700px)
+ {
+   .container{
+    margin-top: 2rem;
+     }
+  }
+
+
 .form{
   display: flex;
   flex-direction: column;

@@ -5,3 +5,10 @@
   text-align: center;
   
 }
+@media (max-width: 700px)
+{
+  .container{
+  padding: 0.5rem;
+  font-size: .8rem;
+   }
+ }
