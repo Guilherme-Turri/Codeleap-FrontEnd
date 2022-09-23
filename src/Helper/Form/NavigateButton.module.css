@@ -1,0 +1,17 @@
+.button{
+  margin: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: .4rem;
+  background: black;
+  color: white;
+  padding: 0.4rem 0.6rem;
+  box-sizing: border-box; 
+  min-width: 8rem;
+  }
+.button:hover,.button:focus{
+outline: none;
+box-shadow: 0 0 0 1px grey;
+transition: .2s;
+}

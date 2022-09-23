@@ -1,0 +1,7 @@
+.button{
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}

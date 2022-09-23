@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column ;
+  width: 22rem;
+  margin: 0 auto;
+ }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.title{
+display: flex;   
+justify-content: center;
+  margin: 1rem ;
+}
+.input{
+  border: 1px solid lightgrey;
+  display:block;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: lightgray;
+  transition: .2s;
+  margin: 1rem;
+}
+.input:focus, .input:hover{
+ outline: none;
+ border-color: darkgrey;
+}

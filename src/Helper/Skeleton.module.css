@@ -1,0 +1,23 @@
+.wrapper{
+  display: flex;
+  margin: 1rem 0 1rem 0 ;
+
+}
+.skeleton{
+  border-radius: 4px ;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(90deg, #eee 0px, lightgrey 50%, #eee 100%) ;
+  background-color: #eee;
+  background-size: 200%;
+  animation:skeleton 1s infinite linear;
+}
+@keyframes skeleton{
+  from{
+    background-position: 0px;
+  }
+  to{
+    background-position: -200%;
+  }
+
+}
