@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import ContentPost from '../Posts/ContentPost';
 import Head from '../../Helper/Head';
+import NotFound from '../NotFound/NotFound';
 
 const SeeProfile = () => {
   const { id } = useParams();
@@ -12,7 +13,9 @@ const SeeProfile = () => {
   );
   const { data } = useSelector((state) => state.post);
 
-  return (
+  return !user ? (
+    <NotFound />
+  ) : (
     <section className={styles.wrapper}>
       <Head title={`${user.author}'s Profile`} />
       <h2> {user.author} Posts</h2>

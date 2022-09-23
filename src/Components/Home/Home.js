@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import MyProfile from '../MyProfile/MyProfile';
 import SeeProfile from '../SeeProfile/SeeProfile';
 import styles from './Home.module.css';
+import NotFound from '../NotFound/NotFound';
 
 const Home = () => {
   const { modalDelete } = useSelector((state) => state.modalDelete);
@@ -24,6 +25,7 @@ const Home = () => {
           <Route path="/" element={<Feed />}></Route>
           <Route path="/myprofile" element={<MyProfile />}></Route>
           <Route path="/profile/:id" element={<SeeProfile />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </main>
       <Footer />
