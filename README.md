@@ -7,6 +7,8 @@ This is a Front End project for a Social Media. The user should create an accoun
 ## In this project, you can do:
 
 - Create account.  
+- Login.  
+- Logout.  
 - Create Post.  
 - Read Post.  
 - Update Post.  
