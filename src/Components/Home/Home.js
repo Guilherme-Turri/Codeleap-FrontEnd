@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { useSelector } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
-import MyProfile from '../MyProfile.js/MyProfile';
+import MyProfile from '../MyProfile/MyProfile';
 import SeeProfile from '../SeeProfile/SeeProfile';
 import styles from './Home.module.css';
 

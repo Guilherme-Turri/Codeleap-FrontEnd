@@ -8,7 +8,7 @@ import ProtectedRouter from './validation/ProtectedRouter';
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />}></Route>
