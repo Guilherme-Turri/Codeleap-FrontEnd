@@ -44,7 +44,7 @@ $ npm start
 
 ## On Prod:
 #### This project was deployed at **Vercel**.  
-:heavy_check_mark:### Click here to see! [Codeleap Front end Test](https://frontend-codeleap.vercel.app/).
+:heavy_check_mark:Click here to see! [Codeleap Front end Test](https://frontend-codeleap.vercel.app/).
 
 
 
